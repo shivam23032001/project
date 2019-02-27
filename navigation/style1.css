@@ -3,14 +3,14 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#side {
+.side {
     padding: 2px;
     position: absolute;
     top: 50%;
    transform: translateY(-50%);
     
 }
-#side a{
+.side a{
     background: #F97F51;
     color: white;
     font-size: 16px;
@@ -23,7 +23,7 @@ body{
     margin-left: -121px;
 
 }
-#side a:hover{
+.side a:hover{
     margin-left: 0;
     transition: 0.6s all;
 }
