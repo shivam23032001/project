@@ -1,0 +1,29 @@
+body{
+    background:#CAD3C8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#side {
+    padding: 2px;
+    position: absolute;
+    top: 50%;
+   transform: translateY(-50%);
+    
+}
+#side a{
+    background: #F97F51;
+    color: white;
+    font-size: 16px;
+    display: block;
+    width: 130px;
+    padding: 12px;
+    margin: 8px;
+    text-decoration:none;
+    border-radius: 10px;
+    margin-left: -121px;
+
+}
+#side a:hover{
+    margin-left: 0;
+    transition: 0.6s all;
+}
