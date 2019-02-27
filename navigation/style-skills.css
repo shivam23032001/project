@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.about-section{
+    width: 100%;
+    background-color:#d2dae2; 
+    padding: 25px 0px;
+}
+.inner-width{
+    max-width: 100%;
+    overflow:hidden;
+    margin: auto;
+}
+.about-section h1{
+    text-align: center;
+}
+.straight-line{
+    width: 100px;
+    height:3px;
+    margin: 10px auto;
+    background: #f53b57;
+    
+}
+.about-section-row{
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+.about-section-col{
+    flex: 20%;
+}
+.about{
+    margin-right: 50px;
+    padding-left: 15px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.about-section-col a{
+    display: inline-block;
+    color: #f53b57;
+    text-decoration: none;
+    border: 2px solid #f53b57;
+    border-radius: 30px;
+    padding: 8px 30px; 
+    transition: 0.4s linear; 
+}
+.about-section-col a:hover{
+    color:#4bcffa;
+    background: #ff3f34;
+}
+.skills{
+    margin-right: 10%;
+}
+
+.progress{
+    width: 400%;
+    height:15px;
+    background:#808e9b ;
+    border-radius: 10px;
+}
+.progress-bar{
+    height: 15px;
+    background:  #f53b57;
+    border-radius: 10px;
+}
+.s1{
+    width: 90%;
+}
+.s2{
+    width: 60%;
+}
+.s3{
+    width: 65%;
+}
+.s4{
+    width: 76%;
+}
+.progress-bar span{
+    float: right;
+    margin-right: 3px;
+    line-height:14px;
+    color:white;
+    font-size: 15px;
+}
