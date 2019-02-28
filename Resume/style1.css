@@ -33,4 +33,14 @@ html{
     z-index: -1;
     min-height: 100vh;
 }
-
+body{
+    color:#fff;
+    margin: 0;
+    padding: 0;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-family: "Luna";
+  }
